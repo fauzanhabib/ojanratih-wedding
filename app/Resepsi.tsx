@@ -407,51 +407,51 @@ const StorySection: React.FC = () => (
 // INSTAGRAM FILTER SECTION
 const sampleImages = [
     {
-      src: "/public/images/our/moment1.webp",
+      src: "/images/our/moment1.webp",
       alt: "Professional studio portrait session",
     },
     {
-      src: "/public/images/our/moment2.webp",
+      src: "/images/our/moment2.webp",
       alt: "Romantic couple portrait",
     },
     {
-      src: "/public/images/our/moment3.webp",
+      src: "/images/our/moment3.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images/our/our1.webp",
+      src: "/images/our/our1.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images/our/our2.webp",
+      src: "/images/our/our2.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images/our/our3.webp",
+      src: "/images/our/our3.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images/our/our4.webp",
+      src: "/images/our/our4.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images/our/our5.webp",
+      src: "/images/our/our5.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images/our/our6.webp",
+      src: "/images/our/our6.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images/our/our7.webp",
+      src: "/images/our/our7.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images/our/our8.webp",
+      src: "/images/our/our8.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images/our/our9.webp",
+      src: "/images/our/our9.webp",
       alt: "Beautiful wedding moment",
     },
   ];
