@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Wedding of Fauzan & Ratih</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            blur: {
+              xs: '2px',
+              xxl: '80px',
+            },
+            fontFamily: {
+              'playfair': ['"Playfair Display"', 'serif'],
+              'lato': ['"Lato"', 'sans-serif'],
+              'italiana': ['Italiana', 'sans-serif'],
+              'lora' : ['Lora', 'sans-serif'],
+            },
+            colors: {
+              'brand-gold': '#A77D5E',
+              'brand-bg': '#F9F5F0',
+              'brand-dark': '#4F4A45',
+              'sage': {
+                      light: "#E6EAE7",
+                      DEFAULT: "#C1C7C0", // main sage tone
+                      dark: "#9AA099",
+                    },
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-sage-light">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
