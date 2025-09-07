@@ -103,16 +103,14 @@ const CoupleSection: React.FC = () => (
           {/* Arch container */}
           <div className="w-full aspect-[3/4] bg-white/80 rounded-t-full border-2 border-white shadow-xl overflow-hidden">
             <img
-              src="/images/ojan.jpg"
+              src="/images/ojan.jpeg"
               alt=""
-              className="w-full h-full object-cover rounded-t-full"
+              className="w-full h-full object-cover rounded-t-full transform -scale-x-100  duration-500"
             />
           </div>
+
           {/* Name Overlay */}
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
-            <div className="bg-white/90 px-4 py-1 rounded-full shadow">
-              
-            </div>
           </div>
         </div>
 
@@ -141,21 +139,18 @@ const CoupleSection: React.FC = () => (
           {/* Arch container */}
           <div className="w-full aspect-[3/4] bg-white/80 rounded-t-full border-2 border-white shadow-xl overflow-hidden">
             <img
-              src="/images/ratih.jpg"
+              src="/images/ratih.jpeg"
               alt=""
-              className="w-full h-full object-cover rounded-t-full"
+              className="w-full h-full object-cover rounded-t-full transform -scale-x-100 duration-500"
             />
           </div>
           {/* Name Overlay */}
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
-            <div className="bg-white/90 px-4 py-1 rounded-full shadow">
-
-            </div>
           </div>
         </div>
 
         {/* Details */}
-        <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">ST. Ratih Nurwanti,</h3>
+        <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">St. Ratih Nurwanti,</h3>
         <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">S.Ak M.Ak</h3>
         <p className="font-lato text-brand-dark text-xs sm:text-sm mt-2">Putri Bungsu dari</p>
         <p className="font-lato text-brand-dark text-xs sm:text-sm">
@@ -358,22 +353,19 @@ const CountdownSection = () => {
             St. Teti Nurhayati, SKM., M.Si. (Kakak)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-            apt. St. Ratna Juminar, S.Far., M.Farm. (Kakak)
+            Apt. St. Ratna Juminar, S.Far., M.Farm. (Kakak)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
             Rizky Kurniawan, S.T., M.T. (Kakak)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-          Udin Hasanudin (Om)
+            Neng Erni Kurniasih (Bibi – Pandeglang)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-            Neneng Komala, S.Pd.I. (Tante)
+            Fatullah Sah, M.M., M.H., CPM / Dewi Nuraeni (Paman / Bibi – Cilegon)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-            Neng Erni Kurniasih (Tante)
-          </p>
-          <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-            Dewi Nuraeni (Tante)
+            Hasanudin / Noneng Komala, S.Pd.I. (Paman / Bibi – Pandeglang)
           </p>
         </div>
       </div>
