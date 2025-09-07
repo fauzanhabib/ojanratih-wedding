@@ -103,16 +103,13 @@ const CoupleSection: React.FC = () => (
           {/* Arch container */}
           <div className="w-full aspect-[3/4] bg-white/80 rounded-t-full border-2 border-white shadow-xl overflow-hidden">
             <img
-              src="/images/ojan.jpg"
+              src="/images/ojan.jpeg"
               alt=""
               className="w-full h-full object-cover rounded-t-full"
             />
           </div>
           {/* Name Overlay */}
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
-            <div className="bg-white/90 px-4 py-1 rounded-full shadow">
-              
-            </div>
           </div>
         </div>
 
@@ -141,21 +138,18 @@ const CoupleSection: React.FC = () => (
           {/* Arch container */}
           <div className="w-full aspect-[3/4] bg-white/80 rounded-t-full border-2 border-white shadow-xl overflow-hidden">
             <img
-              src="/images/ratih.jpg"
+              src="/images/ratih.jpeg"
               alt=""
               className="w-full h-full object-cover rounded-t-full"
             />
           </div>
           {/* Name Overlay */}
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
-            <div className="bg-white/90 px-4 py-1 rounded-full shadow">
-
-            </div>
           </div>
         </div>
 
         {/* Details */}
-        <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">ST. Ratih Nurwanti,</h3>
+        <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">St. Ratih Nurwanti,</h3>
         <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">S.Ak M.Ak</h3>
         <p className="font-lato text-brand-dark text-xs sm:text-sm mt-2">Putri Bungsu dari</p>
         <p className="font-lato text-brand-dark text-xs sm:text-sm">
