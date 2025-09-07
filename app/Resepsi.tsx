@@ -423,35 +423,35 @@ const sampleImages = [
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images//our/our2.webp",
+      src: "/public/images/our/our2.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images//our/our3.webp",
+      src: "/public/images/our/our3.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images//our/our4.webp",
+      src: "/public/images/our/our4.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images//our/our5.webp",
+      src: "/public/images/our/our5.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images//our/our6.webp",
+      src: "/public/images/our/our6.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images//our/our7.webp",
+      src: "/public/images/our/our7.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images//our/our8.webp",
+      src: "/public/images/our/our8.webp",
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/public/images//our/our9.webp",
+      src: "/public/images/our/our9.webp",
       alt: "Beautiful wedding moment",
     },
   ];
