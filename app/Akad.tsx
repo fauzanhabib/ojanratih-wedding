@@ -382,7 +382,7 @@ const CountdownSection = () => {
 const EventDetailsSection: React.FC = () => {
     const venue = {
         name: "Kapulso, Horison Altama Pandeglang",
-        address: "Jl. Raya Serang Pandeglang, Pertigaan Cigadung Km.03, Pandeglang Banten",
+        address: "Jl. Raya Serang - Pandeglang Pertigaan No.KM.3, Pertigaan Cigadung, Kec. Karang Tanjung, Kabupaten Pandeglang, Banten",
         mapsUrl: "https://maps.app.goo.gl/azpqZk3df5bfwpAt9"
     };
 
