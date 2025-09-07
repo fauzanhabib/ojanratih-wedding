@@ -103,7 +103,7 @@ const CoupleSection: React.FC = () => (
           {/* Arch container */}
           <div className="w-full aspect-[3/4] bg-white/80 rounded-t-full border-2 border-white shadow-xl overflow-hidden">
             <img
-              src="public/images/ojan.jpg"
+              src="/images/ojan.jpg"
               alt=""
               className="w-full h-full object-cover rounded-t-full"
             />
@@ -141,7 +141,7 @@ const CoupleSection: React.FC = () => (
           {/* Arch container */}
           <div className="w-full aspect-[3/4] bg-white/80 rounded-t-full border-2 border-white shadow-xl overflow-hidden">
             <img
-              src="public/images/ratih.jpg"
+              src="/images/ratih.jpg"
               alt=""
               className="w-full h-full object-cover rounded-t-full"
             />
@@ -575,7 +575,7 @@ const GiftSection: React.FC = () => {
 
 // CLOSING SECTION
 const ClosingSection: React.FC = () => (
-    <section id="closing" className="relative w-full py-16 md:py-24 px-6 md:px-12 flex justify-center bg-center bg-fixed text-white"   style={{ backgroundImage: `url('public/images/bgsage.jpg')` }}>
+    <section id="closing" className="relative w-full py-16 md:py-24 px-6 md:px-12 flex justify-center bg-center bg-fixed text-white"   style={{ backgroundImage: `url('/images/bgsage.jpg')` }}>
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         <div className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-center gap-8 text-center">
             <h2 className="font-playfair text-4xl">Terima Kasih</h2>
