@@ -105,7 +105,7 @@ const CoupleSection: React.FC = () => (
             <img
               src="/images/ojan.jpeg"
               alt=""
-              className="w-full h-full object-cover rounded-t-full transform -scale-x-100  duration-500"
+              className="w-full h-full object-cover rounded-t-full"
             />
           </div>
 
@@ -141,7 +141,7 @@ const CoupleSection: React.FC = () => (
             <img
               src="/images/ratih.jpeg"
               alt=""
-              className="w-full h-full object-cover rounded-t-full transform -scale-x-100 duration-500"
+              className="w-full h-full object-cover rounded-t-full"
             />
           </div>
           {/* Name Overlay */}
@@ -382,7 +382,7 @@ const CountdownSection = () => {
 const EventDetailsSection: React.FC = () => {
     const venue = {
         name: "Kapulso, Horison Altama Pandeglang",
-        address: "Jl. Raya Serang Pandeglang, Pertigaan Cigadung Km.03, Pandeglang Banten",
+        address: "Jl. Raya Serang - Pandeglang Pertigaan No.KM.3, Pertigaan Cigadung, Kec. Karang Tanjung, Kabupaten Pandeglang, Banten",
         mapsUrl: "https://maps.app.goo.gl/azpqZk3df5bfwpAt9"
     };
 
