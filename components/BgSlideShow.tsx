@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
 const images = [
-  "public/images/slide1.webp",
-  "public/images/slide2.webp",
-  "public/images/slide3.webp",
+  "/images/slide1.webp",
+  "/images/slide2.webp",
+  "/images/slide3.webp",
 ];
 
 export default function BackgroundSlideshow() {
