@@ -27,7 +27,7 @@ const HeroSection: React.FC<{ onOpen: () => void }> = ({ onOpen }) => (
     {/* Blurred background */}
     <div
       className="absolute inset-0 bg-cover bg-center blur-xs"
-      style={{ backgroundImage: `url('/images/bgdepan.jpg')` }}
+      style={{ backgroundImage: `url('/images/bgdepan.webp')` }}
     ></div>
     <div className="absolute inset-0 bg-black bg-opacity-40"></div>
   
@@ -309,7 +309,7 @@ const CountdownSection = () => {
         
         {/* Countdown timer */}
         <div className="mb-12">
-          <CountdownTimer targetDate="2024-12-30T09:00:00" />
+          <CountdownTimer targetDate="2025-11-08T09:00:00Z" />
         </div>
         
         {/* Description text */}
@@ -406,55 +406,57 @@ const StorySection: React.FC = () => (
 
 // INSTAGRAM FILTER SECTION
 const sampleImages = [
-  {
-    src: "/public/images/moment1.jpeg",
-    alt: "Professional studio portrait session",
-  },
-  {
-    src: "/public/images/moment2.jpeg",
-    alt: "Romantic couple portrait",
-  },
-  {
-    src: "/public/images/moment3.jpeg",
-    alt: "Beautiful wedding moment",
-  },
-  {
-    src: "/public/images/our/our1.jpg",
-    alt: "Beautiful wedding moment",
-  },
-  {
-    src: "/public/images//our/our2.jpg",
-    alt: "Beautiful wedding moment",
-  },
-  {
-    src: "/public/images//our/our3.jpg",
-    alt: "Beautiful wedding moment",
-  },
-  {
-    src: "/public/images//our/our4.jpg",
-    alt: "Beautiful wedding moment",
-  },
-  {
-    src: "/public/images//our/our5.jpg",
-    alt: "Beautiful wedding moment",
-  },
-  {
-    src: "/public/images//our/our6.jpg",
-    alt: "Beautiful wedding moment",
-  },
-  {
-    src: "/public/images//our/our7.jpg",
-    alt: "Beautiful wedding moment",
-  },
-  {
-    src: "/public/images//our/our8.jpg",
-    alt: "Beautiful wedding moment",
-  },
-  {
-    src: "/public/images//our/our9.jpg",
-    alt: "Beautiful wedding moment",
-  },
-];
+    {
+      src: "/public/images/our/moment1.webp",
+      alt: "Professional studio portrait session",
+    },
+    {
+      src: "/public/images/our/moment2.webp",
+      alt: "Romantic couple portrait",
+    },
+    {
+      src: "/public/images/our/moment3.webp",
+      alt: "Beautiful wedding moment",
+    },
+    {
+      src: "/public/images/our/our1.webp",
+      alt: "Beautiful wedding moment",
+    },
+    {
+      src: "/public/images//our/our2.webp",
+      alt: "Beautiful wedding moment",
+    },
+    {
+      src: "/public/images//our/our3.webp",
+      alt: "Beautiful wedding moment",
+    },
+    {
+      src: "/public/images//our/our4.webp",
+      alt: "Beautiful wedding moment",
+    },
+    {
+      src: "/public/images//our/our5.webp",
+      alt: "Beautiful wedding moment",
+    },
+    {
+      src: "/public/images//our/our6.webp",
+      alt: "Beautiful wedding moment",
+    },
+    {
+      src: "/public/images//our/our7.webp",
+      alt: "Beautiful wedding moment",
+    },
+    {
+      src: "/public/images//our/our8.webp",
+      alt: "Beautiful wedding moment",
+    },
+    {
+      src: "/public/images//our/our9.webp",
+      alt: "Beautiful wedding moment",
+    },
+  ];
+  
+  
 
 // GIFTING SECTIONS
 const GiftSection: React.FC = () => {
@@ -473,7 +475,7 @@ const GiftSection: React.FC = () => {
 
     const giftAddress = {
         recipient: "Fauzan & Ratih",
-        address: "Jl. Lorem Ipsum No. 21, Kel. Dolor, Kec. Sit Amet, Kota Bandung, 40XXX"
+        address: "Patio Premier A01, Jl. Palapa No.62, RT.3/RW.18, Serua, Kec. Ciputat, Kota Tangerang Selatan, Banten 15414"
     };
 
     return (
@@ -499,7 +501,7 @@ const GiftSection: React.FC = () => {
             </div>
 
                 {/* ilangin kalau di akad */}
-            {/* <div className="flex flex-col items-center text-center mt-16">
+            <div className="flex flex-col items-center text-center mt-16">
                 <h2 className="font-playfair text-4xl text-brand-gold">Kirim Kado</h2>
                  <div className="bg-sage-light p-6 rounded-lg text-center mt-8 w-full max-w-md">
                     <GiftIcon className="mx-auto" />
@@ -509,7 +511,7 @@ const GiftSection: React.FC = () => {
                         <CopyIcon /> {copied === 'address' ? 'Tersalin!' : 'Salin Alamat'}
                     </button>
                 </div>
-            </div> */}
+            </div>
         </Section>
     );
 };
@@ -517,7 +519,7 @@ const GiftSection: React.FC = () => {
 
 // CLOSING SECTION
 const ClosingSection: React.FC = () => (
-    <section id="closing" className="relative w-full py-16 md:py-24 px-6 md:px-12 flex justify-center bg-center bg-fixed text-white"   style={{ backgroundImage: `url('public/images/bgsage.jpg')` }}>
+    <section id="closing" className="relative w-full py-16 md:py-24 px-6 md:px-12 flex justify-center bg-center bg-fixed text-white"   style={{ backgroundImage: `url('public/images/bgsage.webp')` }}>
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         <div className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-center gap-8 text-center">
             <h2 className="font-playfair text-4xl">Terima Kasih</h2>
@@ -537,7 +539,7 @@ const ClosingSection: React.FC = () => (
 // FOOTER
 const Footer: React.FC = () => (
     <footer className="bg-sage-light text-brand-dark text-white py-8 px-6 text-center">
-        <p className="font-lato">Made with ❤️ </p>
+        <p className="font-lato">Made with ❤️ by Ojan </p>
     </footer>
 );
 
@@ -572,7 +574,7 @@ function App() {
     <div className="font-lato bg-sage-light text-brand-dark">
   
       <main>
-        {/* <AudioPlayer /> */}
+        <AudioPlayer />
         <Slideshow />
         <WeddingOverlay />
         <Slideshow />

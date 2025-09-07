@@ -27,7 +27,7 @@ const HeroSection: React.FC<{ onOpen: () => void }> = ({ onOpen }) => (
     {/* Blurred background */}
     <div
       className="absolute inset-0 bg-cover bg-center blur-xs"
-      style={{ backgroundImage: `url('/images/bgdepan.jpg')` }}
+      style={{ backgroundImage: `url('/images/bgdepan.webp')` }}
     ></div>
     <div className="absolute inset-0 bg-black bg-opacity-40"></div>
   
@@ -465,51 +465,51 @@ const StorySection: React.FC = () => (
 // INSTAGRAM FILTER SECTION
 const sampleImages = [
   {
-    src: "/public/images/moment1.jpeg",
+    src: "/public/images/our/moment1.webp",
     alt: "Professional studio portrait session",
   },
   {
-    src: "/public/images/moment2.jpeg",
+    src: "/public/images/our/moment2.webp",
     alt: "Romantic couple portrait",
   },
   {
-    src: "/public/images/moment3.jpeg",
+    src: "/public/images/our/moment3.webp",
     alt: "Beautiful wedding moment",
   },
   {
-    src: "/public/images/our/our1.jpg",
+    src: "/public/images/our/our1.webp",
     alt: "Beautiful wedding moment",
   },
   {
-    src: "/public/images//our/our2.jpg",
+    src: "/public/images//our/our2.webp",
     alt: "Beautiful wedding moment",
   },
   {
-    src: "/public/images//our/our3.jpg",
+    src: "/public/images//our/our3.webp",
     alt: "Beautiful wedding moment",
   },
   {
-    src: "/public/images//our/our4.jpg",
+    src: "/public/images//our/our4.webp",
     alt: "Beautiful wedding moment",
   },
   {
-    src: "/public/images//our/our5.jpg",
+    src: "/public/images//our/our5.webp",
     alt: "Beautiful wedding moment",
   },
   {
-    src: "/public/images//our/our6.jpg",
+    src: "/public/images//our/our6.webp",
     alt: "Beautiful wedding moment",
   },
   {
-    src: "/public/images//our/our7.jpg",
+    src: "/public/images//our/our7.webp",
     alt: "Beautiful wedding moment",
   },
   {
-    src: "/public/images//our/our8.jpg",
+    src: "/public/images//our/our8.webp",
     alt: "Beautiful wedding moment",
   },
   {
-    src: "/public/images//our/our9.jpg",
+    src: "/public/images//our/our9.webp",
     alt: "Beautiful wedding moment",
   },
 ];
@@ -630,7 +630,7 @@ function App() {
     <div className="font-lato bg-sage-light text-brand-dark">
   
       <main>
-        {/* <AudioPlayer /> */}
+        <AudioPlayer />
         <Slideshow />
         <WeddingOverlay />
         <Slideshow />
