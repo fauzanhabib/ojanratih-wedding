@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { LocationPinIcon, CopyIcon, BankIcon, GiftIcon, FacebookIcon, WhatsAppIcon, HeartIcon } from '../components/Icons';
+import { LocationPinIcon, CopyIcon, BankIcon, HeartIcon } from '../components/Icons';
 // import { CountdownTimer } from './components/Countdown';
 import type { RsvpMessage } from '../types';
 import { Mail } from "lucide-react";
