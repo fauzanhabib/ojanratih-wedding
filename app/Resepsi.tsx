@@ -6,7 +6,7 @@ import type { RsvpMessage } from '../types';
 import { Mail } from "lucide-react";
 import AudioPlayer from "../components/AudioPlayer";
 import Slideshow from "../components/BgSlideShow";
-import WeddingOverlay from "../components/WeddingOverlay";
+import WeddingOverlayResepsi from "../components/WeddingOverlayResepsi";
 import { Calendar } from 'lucide-react';
 import PhotoSection from "../components/PhotoSection";
 
@@ -153,7 +153,7 @@ const CoupleSection: React.FC = () => (
         <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">S.Ak M.Ak</h3>
         <p className="font-lato text-brand-dark text-xs sm:text-sm mt-2">Putri Bungsu dari</p>
         <p className="font-lato text-brand-dark text-xs sm:text-sm">
-          Bapak H. Wawan Ridwan Wahyu, S.Ap <br /> & Ibu Hj. Suryati S.Ag
+          Bapak H. Wawan Ridwan Wahyu, S.Ap <br /> & Ibu Hj. Suryati, S Ag
         </p>
         <a
           href="#"
@@ -570,7 +570,7 @@ function App() {
       <main>
         <AudioPlayer />
         <Slideshow />
-        <WeddingOverlay />
+        <WeddingOverlayResepsi />
         <Slideshow />
         <VerseSection />
         <CoupleSection />

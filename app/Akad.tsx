@@ -1,14 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { InstagramIcon, CalendarIcon, LocationPinIcon, CopyIcon, BankIcon, GiftIcon, FacebookIcon, WhatsAppIcon, HeartIcon } from '../components/Icons';
+import { LocationPinIcon, CopyIcon, BankIcon, HeartIcon } from '../components/Icons';
 // import { CountdownTimer } from './components/Countdown';
-import { RsvpSection } from '../components/RsvpSection';
 import type { RsvpMessage } from '../types';
 import { Mail } from "lucide-react";
 import AudioPlayer from "../components/AudioPlayer";
 import Slideshow from "../components/BgSlideShow";
-import WeddingOverlay from "../components/WeddingOverlay";
-import { Calendar } from 'lucide-react';
-import PhotoSection from "../components/PhotoSection";
+import WeddingOverlayAkad from "../components/WeddingOverlayAkad";
 
 // SECTION WRAPPER COMPONENT
 // Fix: Add style prop to Section component to allow inline styling.
@@ -154,7 +151,7 @@ const CoupleSection: React.FC = () => (
         <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">S.Ak M.Ak</h3>
         <p className="font-lato text-brand-dark text-xs sm:text-sm mt-2">Putri Bungsu dari</p>
         <p className="font-lato text-brand-dark text-xs sm:text-sm">
-          Bapak H. Wawan Ridwan Wahyu, S.Ap <br /> & Ibu Hj. Suryati S.Ag
+          Bapak H. Wawan Ridwan Wahyu, S.Ap <br /> & Ibu Hj. Suryati, S Ag
         </p>
         <a
           href="#"
@@ -353,7 +350,7 @@ const CountdownSection = () => {
             St. Teti Nurhayati, SKM., M.Si. (Kakak)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-            Apt. St. Ratna Juminar, S.Far., M.Farm. (Kakak)
+            apt. St. Ratna Juminar, S.Far., M.Farm. (Kakak)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
             Rizky Kurniawan, S.T., M.T. (Kakak)
@@ -420,39 +417,6 @@ const EventDetailsSection: React.FC = () => {
 };
 
 
-
-// STORY SECTION COMPONENT
-const StorySection: React.FC = () => (
-    <Section id="story" className="bg-white">
-        <h2 className="font-playfair text-4xl text-brand-gold text-center">Perjalanan Cinta</h2>
-        <div className="mt-8 w-full max-w-xl">
-            <div className="relative border-l-2 border-brand-gold/30 ml-4 pl-8 py-4">
-                 <div className="absolute -left-2 top-4 w-4 h-4 bg-brand-gold rounded-full border-4 border-white"></div>
-                 <h3 className="font-playfair text-xl text-brand-dark">Awal Bertemu</h3>
-                 <p className="font-lato text-brand-dark/70">26 Agustus 2024</p>
-                 <p>Semuanya berawal di Leverate.
-                 Ratih datang sebagai karyawan baru, sementara Fauzan sudah lebih dulu ada di sana. Obrolan ringan sepulang kerja berubah jadi cerita panjang di WhatsApp. Dari tatapan singkat di kantor, hingga menjalani hobi bersama, perasaan itu tumbuh begitu alami.
-                  </p>
-            </div>
-            <div className="relative border-l-2 border-brand-gold/30 ml-4 pl-8 py-4">
-                 <div className="absolute -left-2 top-4 w-4 h-4 bg-brand-gold rounded-full border-4 border-white"></div>
-                 <h3 className="font-playfair text-xl text-brand-dark">Menjalani Hubungan</h3>
-                 <p className="font-lato text-brand-dark/70">26 September 2024</p>
-                 <p>Tak butuh waktu lama, hanya dalam hitungan minggu, Fauzan mantap menyampaikan niat untuk menikahi Ratih. Dan Ratih pun berkata “iya.”
-                  </p>
-            </div>
-            <div className="relative ml-4 pl-8 py-4">
-                 <div className="absolute -left-2 top-4 w-4 h-4 bg-brand-gold rounded-full border-4 border-white"></div>
-                 <h3 className="font-playfair text-xl text-brand-dark">Hari Pernikahan</h3>
-                 <p className="font-lato text-brand-dark/70">14 Februari 2025</p>
-                 <p>Sejak itu, langkah demi langkah kami jalani bersama—mendaki gunung, menyelam, olahraga, tertawa, hingga yakin melangkah menuju hari terindah: hari pernikahan kami.</p>
-            </div>
-        </div>
-        <p className="font-lato italic text-center mt-8 text-brand-dark max-w-2xl">
-            "Cinta sejati bukanlah menemukan seseorang yang sempurna, tetapi belajar melihat seseorang yang tidak sempurna menjadi sempurna."
-        </p>
-    </Section>
-);
 
 // INSTAGRAM FILTER SECTION
 const sampleImages = [
@@ -624,13 +588,11 @@ function App() {
       <main>
         <AudioPlayer />
         <Slideshow />
-        <WeddingOverlay />
+        <WeddingOverlayAkad />
         <Slideshow />
         <VerseSection />
         <CoupleSection />
         <EventDetailsSection />
-        <StorySection />
-        <PhotoSection images={sampleImages} />
         {/* <RsvpSection messages={messages} onSubmit={handleRsvpSubmit} /> */}
         <GiftSection />
         <CountdownSection />
