@@ -31,15 +31,7 @@ const HeroSection: React.FC<{ onOpen: () => void }> = ({ onOpen }) => (
     {/* Foreground content */}
     <div className="relative z-2 flex flex-col items-center animate-fade-in mb-8">
       {/* Portrait with arch shape */}
-      <div className="overflow-hidden rounded-t-full rounded-b-[1.5rem] shadow-2xl mb-20 w-32 sm:w-56 md:w-72 lg:w-96">
-        <img
-          src="/images/bgkecil.jpg"
-          alt="Couple"
-          className="w-full h-auto object-cover"
-        />
-      </div>
 
-  
       <p className="font-lora tracking-widest text-lg">THE WEDDING OF</p>
       <h1 className="font-playfair text-4xl md:text-8xl">Fauzan & Ratih</h1>
       <p className="font-italiana mt-3">Yth. Bapak/Ibu/Saudara</p>
