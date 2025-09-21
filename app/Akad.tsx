@@ -143,7 +143,7 @@ const CoupleSection: React.FC = () => (
         <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">S.Ak M.Ak</h3>
         <p className="font-lato text-brand-dark text-xs sm:text-sm mt-2">Putri Bungsu dari</p>
         <p className="font-lato text-brand-dark text-xs sm:text-sm">
-          Bapak H. Wawan Ridwan Wahyu, S.Ap <br /> & Ibu Hj. Suryati, S Ag
+          Bapak H. Wawan Ridwan Wahyu, S.Ap <br /> & Ibu Hj. Suryati, S Ag (Hj.Yati)
         </p>
         <a
           href="#"
