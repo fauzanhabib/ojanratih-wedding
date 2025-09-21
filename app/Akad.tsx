@@ -348,13 +348,13 @@ const CountdownSection = () => {
             Rizky Kurniawan, S.T., M.T. (Kakak)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-            Neng Erni Kurniasih (Ciekek Talaga -  Pandeglang) - (Bibi – Pandeglang)
+            Neng Erni Kurniasih  - (Bibi – Ciekek Talaga -  Pandeglang)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
             Fathullah, S.Ag., M.M., M.H., CPM / Dewi Nuraeni (Paman / Bibi – Cilegon)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-            Hasanudin (Udin) - (Ciekek Malati Pandeglang) / Noneng Komala, S.Pd.I. (Paman / Bibi – Pandeglang) 
+            Hasanudin (Udin) -  Noneng Komala, S.Pd.I. (Paman / Bibi – Ciekek Malati Pandeglang) 
           </p>
         </div>
       </div>
