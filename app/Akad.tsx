@@ -143,7 +143,7 @@ const CoupleSection: React.FC = () => (
         <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">S.Ak M.Ak</h3>
         <p className="font-lato text-brand-dark text-xs sm:text-sm mt-2">Putri Bungsu dari</p>
         <p className="font-lato text-brand-dark text-xs sm:text-sm">
-          Bapak H. Wawan Ridwan Wahyu, S.Ap <br /> & Ibu Hj. Suryati, S Ag (Hj.Yati)
+          Bapak H. Wawan Ridwan Wahyu, S.Ap (Purnabakti Dishub Pandeglang) <br /> & Ibu Hj. Suryati, S Ag (Hj.Yati) (Punabakti Kemenag/KTU MAN 2 Pandeglang)
         </p>
         <a
           href="#"
@@ -348,13 +348,13 @@ const CountdownSection = () => {
             Rizky Kurniawan, S.T., M.T. (Kakak)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-            Neng Erni Kurniasih (Bibi – Pandeglang)
+            Neng Erni Kurniasih (Ciekek Talaga -  Pandeglang) - (Bibi – Pandeglang)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-            Fatullah Sah, M.M., M.H., CPM / Dewi Nuraeni (Paman / Bibi – Cilegon)
+            Fathullah, S.Ag., M.M., M.H., CPM / Dewi Nuraeni (Paman / Bibi – Cilegon)
           </p>
           <p className="font-lato font-semibold text-base sm:text-lg md:text-xl text-black">
-            Hasanudin / Noneng Komala, S.Pd.I. (Paman / Bibi – Pandeglang)
+            Hasanudin (Udin) - (Ciekek Malati Pandeglang) / Noneng Komala, S.Pd.I. (Paman / Bibi – Pandeglang) 
           </p>
         </div>
       </div>
