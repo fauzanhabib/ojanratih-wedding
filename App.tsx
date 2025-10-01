@@ -6,8 +6,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/akad" element={<AkadPage />} />
-        <Route path="/resepsi" element={<ResepsiPage />} />
+        <Route path="" element={<AkadPage />} />
+        <Route path="/resepsi" element={<ResepsiPage defaultNama="Tamu Undangan" />} />
       </Routes>
     </Router>
   );
