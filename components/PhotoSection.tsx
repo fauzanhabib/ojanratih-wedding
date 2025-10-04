@@ -31,11 +31,12 @@ function shuffleArray<T>(array: T[]): T[] {
         </div>
   
         {/* Portrait Photo Grid - Always 2 columns */}
-        <div className="grid grid-cols-4 gap-2 max-w-4xl mx-auto mb-8">
-          {shuffledImages.map((image, index) => (
+        <div className="grid grid-cols-3 gap-2 max-w-4xl mx-auto mb-8">
+          {/* Semua kecuali 2 terakhir */}
+          {shuffledImages.slice(0, -2).map((image, index) => (
             <div
               key={index}
-              className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 transition-all duration-300 group cursor-pointer hover:shadow-lg"
+              className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 group cursor-pointer hover:shadow-lg"
             >
               <img
                 src={image.src}
@@ -43,17 +44,27 @@ function shuffleArray<T>(array: T[]): T[] {
                 {...({ fetchpriority: "high" } as any)}
                 className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
               />
-  
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-  
-              {/* Heart Icon */}
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <div className="text-white text-4xl">♡</div>
-              </div>
             </div>
           ))}
+
+          {/* Dua terakhir ditaruh di tengah */}
+          <div className="col-span-3 flex justify-center gap-2">
+            {shuffledImages.slice(-2).map((image, index) => (
+              <div
+                key={index}
+                className="relative aspect-[3/4] w-1/3 rounded-2xl overflow-hidden bg-gray-100 group cursor-pointer hover:shadow-lg"
+              >
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  {...({ fetchpriority: "high" } as any)}
+                  className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            ))}
+          </div>
         </div>
+
       </section>
     );
   };
