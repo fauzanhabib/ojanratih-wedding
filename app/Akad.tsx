@@ -24,7 +24,7 @@ const HeroSection: React.FC<{ onOpen: () => void }> = ({ onOpen }) => (
     {/* Blurred background */}
     <div
       className="absolute inset-0 bg-cover bg-center blur-xs"
-      style={{ backgroundImage: `url('/images/bgdepan.webp')` }}
+      style={{ backgroundImage: `url('https://res.cloudinary.com/dlfysdzgr/image/upload/v1759299946/bgdepan_sqav4t.webp')` }}
     ></div>
     <div className="absolute inset-0 bg-black bg-opacity-40"></div>
   
@@ -143,7 +143,7 @@ const CoupleSection: React.FC = () => (
         <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">S.Ak M.Ak</h3>
         <p className="font-lato text-brand-dark text-xs sm:text-sm mt-2">Putri Bungsu dari</p>
         <p className="font-lato text-brand-dark text-xs sm:text-sm">
-          Bapak H. Wawan Ridwan Wahyu, S.Ap (Purnabakti Dishub Pandeglang) <br /> & Ibu Hj. Suryati, S Ag (Hj.Yati) (Purnabakti Kemenag/KTU MAN 2 Pandeglang)
+          Bapak H. Wawan Ridwan Wahyu, S.AP (Purnabakti Dishub Pandeglang) <br /> & Ibu Hj. Suryati, S Ag (Hj.Yati) (Purnabakti Kemenag/KTU MAN 2 Pandeglang)
         </p>
         <a
           href="#"
