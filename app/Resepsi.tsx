@@ -156,7 +156,7 @@ const CoupleSection: React.FC = () => (
         <h3 className="font-playfair text-base sm:text-2xl text-brand-dark">S.Ak M.Ak</h3>
         <p className="font-lato text-brand-dark text-xs sm:text-sm mt-2">Putri Bungsu dari</p>
         <p className="font-lato text-brand-dark text-xs sm:text-sm">
-          Bapak H. Wawan Ridwan Wahyu, S.Ap <br /> & Ibu Hj. Suryati, S Ag
+          Bapak H. Wawan Ridwan Wahyu, S.AP<br /> & Ibu Hj. Suryati, S Ag
         </p>
         <a
           href="#"
@@ -424,23 +424,7 @@ const sampleImages = [
       alt: "Beautiful wedding moment",
     },
     {
-      src: "/images/our/our3.webp",
-      alt: "Beautiful wedding moment",
-    },
-    {
-      src: "/images/our/our4.webp",
-      alt: "Beautiful wedding moment",
-    },
-    {
-      src: "/images/our/our5.webp",
-      alt: "Beautiful wedding moment",
-    },
-    {
       src: "/images/our/our6.webp",
-      alt: "Beautiful wedding moment",
-    },
-    {
-      src: "/images/our/our7.webp",
       alt: "Beautiful wedding moment",
     },
     {
@@ -516,7 +500,7 @@ const GiftSection: React.FC = () => {
 
 // CLOSING SECTION
 const ClosingSection: React.FC = () => (
-    <section id="closing" className="relative w-full py-16 md:py-24 px-6 md:px-12 flex justify-center bg-center bg-fixed text-white"   style={{ backgroundImage: `url('/images/bgsage.webp')` }}>
+    <section id="closing" className="relative w-full py-16 md:py-24 px-6 md:px-12 flex justify-center bg-center bg-fixed text-white"   style={{ backgroundImage: `url('https://res.cloudinary.com/dlfysdzgr/image/upload/v1759299938/bgsage_aitvc9.webp')` }}>
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         <div className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-center gap-8 text-center">
             <h2 className="font-playfair text-4xl">Terima Kasih</h2>
@@ -576,7 +560,6 @@ function App({ defaultNama }: { defaultNama?: string }) {
         <AudioPlayer />
         <Slideshow />
         <WeddingOverlayResepsi />
-        <Slideshow />
         <VerseSection />
         <CoupleSection />
         <EventDetailsSection />

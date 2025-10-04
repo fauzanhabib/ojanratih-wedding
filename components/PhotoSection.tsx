@@ -31,7 +31,7 @@ function shuffleArray<T>(array: T[]): T[] {
         </div>
   
         {/* Portrait Photo Grid - Always 2 columns */}
-        <div className="grid grid-cols-2 gap-4 max-w-4xl mx-auto mb-8">
+        <div className="grid grid-cols-4 gap-2 max-w-4xl mx-auto mb-8">
           {shuffledImages.map((image, index) => (
             <div
               key={index}
@@ -40,6 +40,7 @@ function shuffleArray<T>(array: T[]): T[] {
               <img
                 src={image.src}
                 alt={image.alt}
+                {...({ fetchpriority: "high" } as any)}
                 className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
               />
   
