@@ -11,7 +11,7 @@ export default function BackgroundSlideshow() {
   return (
     <div className="absolute inset-0 w-full h-full overflow-hidden">
       <img
-        src="/images/slide2.webp"
+        src="/images/slide1.webp"
         alt="slide"
         loading="eager"
         {...({ fetchpriority: "high" } as any)}
