@@ -42,7 +42,7 @@ const HeroSection: React.FC<{ onOpen: () => void; nama?: string }> = ({ onOpen, 
       >
         {nama ?? "Tamu Undangan"}
       </p>
-      
+
       <button
         onClick={onOpen}
         className="mt-4 flex items-center gap-2 px-8 py-3 
@@ -102,7 +102,7 @@ const CoupleSection: React.FC = () => (
             <img
               src="/images/ojan.jpeg"
               alt=""
-              className="w-full h-full object-cover rounded-t-full"
+              className="w-full h-full object-cover scale-150 rounded-t-full"
             />
           </div>
 
@@ -138,7 +138,7 @@ const CoupleSection: React.FC = () => (
             <img
               src="/images/ratih.jpeg"
               alt=""
-              className="w-full h-full object-cover rounded-t-full"
+              className="w-full h-full object-cover scale-150 rounded-t-full"
             />
           </div>
           {/* Name Overlay */}
