@@ -19,7 +19,7 @@ const Section: React.FC<{ id?: string; children: React.ReactNode; className?: st
 
 // HERO SECTION COMPONENT
 
-const HeroSection: React.FC<{ onOpen: () => void }> = ({ onOpen }) => (
+const HeroSection: React.FC<{ onOpen: () => void; nama?: string }> = ({ onOpen, nama, }) => (
     <div className="relative h-screen w-full flex flex-col justify-center items-center text-center p-6 text-white">
     {/* Blurred background */}
     <div
@@ -35,6 +35,14 @@ const HeroSection: React.FC<{ onOpen: () => void }> = ({ onOpen }) => (
       <p className="font-lora tracking-widest text-lg">THE WEDDING OF</p>
       <h1 className="font-playfair text-4xl md:text-8xl">Fauzan & Ratih</h1>
       <p className="font-italiana mt-3">Yth. Bapak/Ibu/Saudara</p>
+      <p
+        className="mt-1 text-2xl md:text-4xl font-dancing 
+                   bg-clip-text from-white via-gray-200 to-gray-400 
+                  drop-shadow-lg"
+      >
+        {nama ?? "Tamu Undangan"}
+      </p>
+      
       <button
         onClick={onOpen}
         className="mt-4 flex items-center gap-2 px-8 py-3 
@@ -549,9 +557,11 @@ const Footer: React.FC = () => (
 
 
 // MAIN APP COMPONENT
-function App() {
+function App({ defaultNama }: { defaultNama?: string }) {
   const [isOpened, setIsOpened] = useState(false);
   const [messages, setMessages] = useState<RsvpMessage[]>([]);
+  const searchParams = new URLSearchParams(location.search);
+  const queryNama = searchParams.get("nama");
 
   useEffect(() => {
     if (isOpened) {
@@ -570,8 +580,9 @@ function App() {
   };
 
 
+
   if (!isOpened) {
-    return <HeroSection onOpen={handleOpenInvitation} />;
+    return <HeroSection onOpen={handleOpenInvitation} nama={queryNama as string} />;
   }
 
   return (
