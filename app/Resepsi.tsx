@@ -108,7 +108,7 @@ const CoupleSection: React.FC = () => (
             <img
               src="/images/ojan.jpeg"
               alt=""
-              className="w-full h-full object-cover rounded-t-full"
+              className="w-full h-full object-cover scale-150 rounded-t-full"
             />
           </div>
           {/* Name Overlay */}
@@ -143,7 +143,7 @@ const CoupleSection: React.FC = () => (
             <img
               src="/images/ratih.jpeg"
               alt=""
-              className="w-full h-full object-cover rounded-t-full"
+              className="w-full h-full object-cover scale-150 rounded-t-full"
             />
           </div>
           {/* Name Overlay */}
