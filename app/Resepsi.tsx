@@ -390,7 +390,7 @@ const StorySection: React.FC = () => (
             </div>
             <div className="relative ml-4 pl-8 py-4">
                  <div className="absolute -left-2 top-4 w-4 h-4 bg-brand-gold rounded-full border-4 border-white"></div>
-                 <h3 className="font-playfair text-xl text-brand-dark">Hari Pernikahan</h3>
+                 <h3 className="font-playfair text-xl text-brand-dark">Mulai Serius</h3>
                  <p className="font-lato text-brand-dark/70">14 Februari 2025</p>
                  <p>Sejak itu, langkah demi langkah kami jalani bersama—mendaki gunung, menyelam, olahraga, tertawa, hingga yakin melangkah menuju hari terindah: hari pernikahan kami.</p>
             </div>
